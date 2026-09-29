@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Wearmill — Screen Printing & Embroidery | Custom Merch from $6.49/unit",
-  description: "Custom t-shirts, embroidered hats, tote bags, and branded merch for businesses. Quote in 24 hours, ships in 5-7 days. Houston, TX.",
+  description: "Custom t-shirts, embroidered hats, tote bags, and branded merch for businesses nationwide. Quote in 24 hours, ships in 5-7 days.",
   metadataBase: new URL("https://wearmill.com"),
   keywords: [
     "custom t-shirts Houston",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Wearmill — Screen Printing & Embroidery | Custom Merch from $6.49/unit",
-    description: "Custom t-shirts, embroidered hats, and branded merch. Quote in 24 hours, ships in a week. Houston, TX.",
+    description: "Custom t-shirts, embroidered hats, and branded merch for businesses nationwide. Quote in 24 hours, ships in a week.",
     siteName: "Wearmill",
     type: "website",
     locale: "en_US",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Wearmill — Custom Printed Products",
-    description: "Screen printing, embroidery, branded merch. T-shirts from $6.49/unit. Houston, TX.",
+    description: "Screen printing, embroidery, branded merch. T-shirts from $6.49/unit. Ships nationwide.",
   },
   alternates: {
     canonical: "https://wearmill.com",

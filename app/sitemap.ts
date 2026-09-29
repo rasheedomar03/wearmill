@@ -5,11 +5,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
   const blogPosts = [
-    "screen-printing-vs-embroidery-vs-dtg",
-    "how-to-order-custom-t-shirts",
-    "promotional-products-for-trade-shows",
-    "custom-t-shirt-pricing-2026",
-    "screen-printing-houston-tx",
+    { slug: "screen-printing-houston-tx",            date: "2026-06-09" },
+    { slug: "custom-t-shirt-pricing-2026",           date: "2026-06-02" },
+    { slug: "screen-printing-vs-embroidery-vs-dtg",  date: "2026-05-26" },
+    { slug: "how-to-order-custom-t-shirts",          date: "2026-05-19" },
+    { slug: "promotional-products-for-trade-shows",  date: "2026-05-12" },
   ];
 
   return [
@@ -31,9 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
-    ...blogPosts.map((slug) => ({
-      url: `${base}/blog/${slug}`,
-      lastModified: "2026-06-02",
+    ...blogPosts.map((post) => ({
+      url: `${base}/blog/${post.slug}`,
+      lastModified: post.date,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),

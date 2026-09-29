@@ -21,7 +21,7 @@ export default function Pricing() {
             Custom printed shirts.<br />No surprises.
           </h2>
           <p style={{ fontSize: 15, color: "var(--text-secondary)", maxWidth: 360, lineHeight: 1.7 }}>
-            1-color imprint included. Setup fees waived at 96+ shirts. The more you order, the more you save.
+            1-color imprint included. Setup fees waived at 144+ shirts for screen print, 96+ for embroidery. The more you order, the more you save.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ export default function Pricing() {
         </div>
 
         <p style={{ fontSize: 13, color: "var(--text-muted)", textAlign: "center" }}>
-          T-shirt pricing shown for 1-color imprint. All products quoted with exact pricing on request.{" "}
+          Pricing shown for standard blanks, 1-color imprint. Premium blanks (Comfort Colors, bella+canvas, etc.) priced on request.{" "}
           <a href="#contact" style={{ color: "var(--gold)", textDecoration: "none" }}>
             Get a custom quote →
           </a>

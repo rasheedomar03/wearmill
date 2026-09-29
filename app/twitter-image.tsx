@@ -93,7 +93,7 @@ export default async function Image() {
             lineHeight: 1.6,
           }}
         >
-          Screen printing, embroidery, branded merch. Houston, TX.
+          Screen printing, embroidery, branded merch. Ships nationwide.
         </div>
 
         <div

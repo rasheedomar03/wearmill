@@ -13,8 +13,8 @@ const jsonLd = {
   description: "A step-by-step guide to ordering custom printed t-shirts for your business: choosing blanks, submitting artwork, approving proofs, and receiving your order.",
   author: { "@type": "Person", name: "Rasheed Omar", jobTitle: "Founder", worksFor: { "@type": "Organization", name: "Wearmill" } },
   publisher: { "@type": "Organization", name: "Wearmill", url: "https://wearmill.com" },
-  datePublished: "2026-06-02",
-  dateModified: "2026-06-02",
+  datePublished: "2026-05-19",
+  dateModified: "2026-05-19",
   mainEntityOfPage: "https://wearmill.com/blog/how-to-order-custom-t-shirts",
 };
 

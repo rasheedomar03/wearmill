@@ -13,8 +13,8 @@ const jsonLd = {
   description: "Compare screen printing, embroidery, and DTG printing by cost, durability, and best use case. Real pricing and minimums from Wearmill, Houston TX.",
   author: { "@type": "Person", name: "Rasheed Omar", jobTitle: "Founder", worksFor: { "@type": "Organization", name: "Wearmill" } },
   publisher: { "@type": "Organization", name: "Wearmill", url: "https://wearmill.com" },
-  datePublished: "2026-06-02",
-  dateModified: "2026-06-02",
+  datePublished: "2026-05-26",
+  dateModified: "2026-05-26",
   mainEntityOfPage: "https://wearmill.com/blog/screen-printing-vs-embroidery-vs-dtg",
 };
 

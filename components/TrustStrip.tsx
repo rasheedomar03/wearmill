@@ -4,7 +4,7 @@ import { Shield, Clock, Truck, BadgeCheck } from "lucide-react";
 
 const badges = [
   { Icon: Shield,     label: "100% Satisfaction Guarantee" },
-  { Icon: BadgeCheck,  label: "Setup Fees Waived at 96+ Units" },
+  { Icon: BadgeCheck,  label: "Setup Fees Waived on Large Orders" },
   { Icon: Truck,      label: "Delivered in About 2 Weeks" },
   { Icon: Clock,      label: "Quote Back in 24 Hours" },
 ];

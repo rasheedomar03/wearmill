@@ -36,7 +36,7 @@ export default function Hero() {
             {...fadeUp(0.1)}
             style={{ fontSize: "clamp(44px, 6vw, 80px)", fontWeight: 700, lineHeight: 1.05, letterSpacing: "-0.04em", color: "var(--text)", marginBottom: 28 }}
           >
-            Houston custom merch,<br />
+            Custom merch,<br />
             <span style={{ color: "var(--gold)" }}>printed fast.</span>
           </motion.h1>
 
@@ -44,7 +44,7 @@ export default function Hero() {
             {...fadeUp(0.2)}
             style={{ fontSize: 18, lineHeight: 1.7, color: "var(--text-secondary)", maxWidth: 480, marginBottom: 48 }}
           >
-            Screen printed t-shirts from $6.49/unit. Embroidered hats, tote bags, drinkware — for Houston businesses. Quote in 24 hours, delivered in about 2 weeks.
+            Screen printed t-shirts from $6.49/unit. Embroidered hats, tote bags, drinkware — for businesses across the country. Quote in 24 hours, delivered in about 2 weeks.
           </motion.p>
 
           <motion.div {...fadeUp(0.3)} style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 72 }}>

@@ -13,8 +13,8 @@ const jsonLd = {
   description: "Which trade show giveaways people actually keep vs throw away. Practical guide with real pricing from Wearmill, Houston TX.",
   author: { "@type": "Person", name: "Rasheed Omar", jobTitle: "Founder", worksFor: { "@type": "Organization", name: "Wearmill" } },
   publisher: { "@type": "Organization", name: "Wearmill", url: "https://wearmill.com" },
-  datePublished: "2026-06-02",
-  dateModified: "2026-06-02",
+  datePublished: "2026-05-12",
+  dateModified: "2026-05-12",
   mainEntityOfPage: "https://wearmill.com/blog/promotional-products-for-trade-shows",
 };
 
