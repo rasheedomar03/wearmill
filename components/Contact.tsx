@@ -359,6 +359,13 @@ export default function Contact() {
             </div>
           )}
 
+          <p style={{ fontSize: 12, color: "var(--text-muted)", lineHeight: 1.6, margin: 0 }}>
+            By submitting this form, you agree to our{" "}
+            <a href="/terms" style={{ color: "var(--gold)", textDecoration: "none" }}>Terms of Service</a>
+            {" "}and{" "}
+            <a href="/privacy" style={{ color: "var(--gold)", textDecoration: "none" }}>Privacy Policy</a>.
+          </p>
+
           <button
             type="submit"
             disabled={status === "loading"}

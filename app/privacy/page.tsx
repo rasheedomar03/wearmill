@@ -44,7 +44,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p style={{ fontSize: 13, color: "var(--text-muted)", fontFamily: "var(--font-geist-mono)", marginBottom: 56 }}>
-          Last updated: May 23, 2026
+          Last updated: September 29, 2026
         </p>
 
         <div style={sectionStyle}>
@@ -90,6 +90,30 @@ export default function PrivacyPolicy() {
           <p style={paraStyle}>
             You may request access to, correction of, or deletion of your personal information at any time. To make a request, contact us at{" "}
             <a href="mailto:hello@wearmill.com" style={{ color: "var(--gold)", textDecoration: "none" }}>hello@wearmill.com</a>.
+          </p>
+        </div>
+
+        <div style={sectionStyle}>
+          <h2 style={headingStyle}>California Privacy Rights (CCPA)</h2>
+          <p style={paraStyle}>
+            If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA):
+          </p>
+          <p style={paraStyle}>
+            <strong style={{ color: "var(--text)", fontWeight: 600 }}>Right to Know:</strong> You may request a copy of the personal information we have collected about you in the past 12 months, including the categories of information, the purposes for which it was collected, and any third parties it was shared with.
+          </p>
+          <p style={paraStyle}>
+            <strong style={{ color: "var(--text)", fontWeight: 600 }}>Right to Delete:</strong> You may request deletion of your personal information, subject to certain exceptions (for example, if we need it to complete a transaction you requested).
+          </p>
+          <p style={paraStyle}>
+            <strong style={{ color: "var(--text)", fontWeight: 600 }}>Right to Opt Out of Sale:</strong> We do not sell your personal information to third parties.
+          </p>
+          <p style={paraStyle}>
+            <strong style={{ color: "var(--text)", fontWeight: 600 }}>Right to Non-Discrimination:</strong> We will not discriminate against you for exercising any of these rights.
+          </p>
+          <p style={paraStyle}>
+            To submit a request, email us at{" "}
+            <a href="mailto:hello@wearmill.com" style={{ color: "var(--gold)", textDecoration: "none" }}>hello@wearmill.com</a>{" "}
+            with the subject line "CCPA Request." We will respond within 45 days.
           </p>
         </div>
 

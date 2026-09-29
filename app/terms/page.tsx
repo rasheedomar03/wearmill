@@ -44,7 +44,7 @@ export default function TermsOfService() {
           Terms of Service
         </h1>
         <p style={{ fontSize: 13, color: "var(--text-muted)", fontFamily: "var(--font-geist-mono)", marginBottom: 56 }}>
-          Last updated: May 23, 2026
+          Last updated: September 29, 2026
         </p>
 
         <div style={sectionStyle}>

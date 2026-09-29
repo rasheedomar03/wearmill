@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import CookieBanner from "@/components/CookieBanner";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -64,10 +65,12 @@ const localBusinessJsonLd = {
     addressRegion: "TX",
     addressCountry: "US",
   },
-  areaServed: {
-    "@type": "Country",
-    name: "United States",
-  },
+  areaServed: [
+    { "@type": "City", name: "Houston", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "The Woodlands", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Sugar Land", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Katy", containedInPlace: { "@type": "State", name: "Texas" } },
+  ],
   founder: {
     "@type": "Person",
     name: "Rasheed Omar",
@@ -236,6 +239,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         {children}
+        <CookieBanner />
         <Analytics />
       </body>
     </html>
