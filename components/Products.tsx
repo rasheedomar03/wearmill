@@ -26,7 +26,7 @@ export default function Products() {
             </h2>
           </div>
           <p style={{ fontSize: 15, color: "var(--text-secondary)", maxWidth: 360, lineHeight: 1.7 }}>
-            100+ customizable products. One reliable supplier. No setup fees, no minimums on most items.
+            100+ customizable products. One reliable supplier. Minimums start at 24 units on most items.
           </p>
         </div>
 

@@ -111,7 +111,7 @@ export default function About() {
           marginTop: 32,
           fontFamily: "var(--font-geist-mono)",
         }}>
-          Last updated: June 2026
+          Last updated: September 2026
         </p>
 
       </div>

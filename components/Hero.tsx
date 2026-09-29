@@ -73,7 +73,7 @@ export default function Hero() {
               { num: "100+", label: "Products available" },
               { num: "$6.49", label: "Shirts from / unit" },
               { num: "5–7",   label: "Day production" },
-              { num: "Free",  label: "Setup at 96+ units" },
+              { num: "Free",  label: "Setup at 144+ units" },
             ].map(s => (
               <div key={s.label}>
                 <div style={{ fontSize: 26, fontWeight: 700, color: "var(--text)", letterSpacing: "-0.03em", marginBottom: 4 }}>{s.num}</div>
@@ -150,7 +150,7 @@ export default function Hero() {
               <circle cx="7" cy="7" r="6" stroke="var(--gold)" strokeWidth="1.5"/>
               <path d="M4 7l2 2 4-4" stroke="var(--gold)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            <span style={{ fontSize: 12, color: "var(--text-muted)", fontFamily: "var(--font-geist-mono)" }}>Setup fees waived at 96+ units. Production 5–7 days, delivered in ~2 weeks.</span>
+            <span style={{ fontSize: 12, color: "var(--text-muted)", fontFamily: "var(--font-geist-mono)" }}>Setup fees waived at 144+ for screen print, 96+ for embroidery. Production 5–7 days, delivered in ~2 weeks.</span>
           </div>
         </motion.div>
 

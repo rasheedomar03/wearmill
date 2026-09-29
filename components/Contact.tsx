@@ -167,7 +167,7 @@ export default function Contact() {
           <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
             {[
               { label: "Quick turnaround", desc: "Quote in under 24 hours, production starts same day." },
-              { label: "Transparent pricing", desc: "What you see is what you pay. Setup fees waived at 96+ units." },
+              { label: "Transparent pricing", desc: "What you see is what you pay. Setup fees waived at 144+ for screen print, 96+ for embroidery." },
               { label: "Ships to your door", desc: "Fully printed, quality-checked, delivered directly." },
             ].map(item => (
               <div key={item.label} style={{ display: "flex", gap: 16, alignItems: "flex-start" }}>

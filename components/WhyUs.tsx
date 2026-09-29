@@ -17,7 +17,7 @@ const reasons = [
   {
     Icon: HandCoins,
     title: "Order 24 or 2,400. Volume pricing built in.",
-    desc: "No minimums on most items. The more you order, the less you pay per unit. Volume discounts are built into every tier.",
+    desc: "Minimums start at 24 units on most items. The more you order, the less you pay per unit. Volume discounts are built into every tier.",
   },
   {
     Icon: Repeat,
