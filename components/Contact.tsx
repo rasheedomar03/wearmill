@@ -95,6 +95,8 @@ export default function Contact() {
       name: (form.elements.namedItem("name") as HTMLInputElement).value.trim(),
       business: (form.elements.namedItem("business") as HTMLInputElement).value.trim(),
       email: (form.elements.namedItem("email") as HTMLInputElement).value.trim(),
+      productType: (form.elements.namedItem("productType") as HTMLSelectElement).value,
+      quantity: (form.elements.namedItem("quantity") as HTMLInputElement).value.trim(),
       message: (form.elements.namedItem("message") as HTMLTextAreaElement).value.trim(),
     };
 
@@ -289,6 +291,46 @@ export default function Contact() {
             {fieldErrors.email && (
               <p style={{ fontSize: 12, color: "#f87171", margin: "6px 0 0" }}>{fieldErrors.email}</p>
             )}
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+            <div>
+              <label htmlFor="wm-product" style={{ display: "block", fontSize: 12, fontWeight: 500, color: "var(--text-secondary)", marginBottom: 8, letterSpacing: "0.02em" }}>
+                Product type
+              </label>
+              <select
+                id="wm-product"
+                className="wm-input"
+                name="productType"
+                defaultValue=""
+                style={{ ...inputBase, appearance: "none", backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1L6 7L11 1' stroke='%23888' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 14px center", paddingRight: 36 }}
+              >
+                <option value="" disabled>Select one</option>
+                <option value="Screen Print Shirts">Screen Print — Shirts</option>
+                <option value="Screen Print Hoodies">Screen Print — Hoodies</option>
+                <option value="Embroidery Hats">Embroidery — Hats</option>
+                <option value="Embroidery Shirts">Embroidery — Shirts</option>
+                <option value="DTG / Small Order">DTG / Small Order</option>
+                <option value="Drinkware">Drinkware / Mugs</option>
+                <option value="Tote Bags">Tote Bags</option>
+                <option value="Mixed Order">Mixed Order</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="wm-quantity" style={{ display: "block", fontSize: 12, fontWeight: 500, color: "var(--text-secondary)", marginBottom: 8, letterSpacing: "0.02em" }}>
+                Approximate quantity
+              </label>
+              <input
+                id="wm-quantity"
+                className="wm-input"
+                type="text"
+                name="quantity"
+                maxLength={50}
+                placeholder="e.g. 48"
+                style={inputStyle(false)}
+              />
+            </div>
           </div>
 
           <div>
