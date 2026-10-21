@@ -94,7 +94,7 @@ export async function POST(req: Request) {
   const safeQuantity = escapeHtml(quantity);
 
   const notificationPayload: Parameters<typeof resend.emails.send>[0] = {
-    from: "Wearmill Quote Form <onboarding@resend.dev>",
+    from: "Wearmill Quote Form <hello@wearmill.com>",
     to: ["hello@wearmill.com"],
     replyTo: email,
     subject: `Quote Request from ${name.replace(/[<>"]/g, "")}${business ? ` — ${business.replace(/[<>"]/g, "")}` : ""}`,
